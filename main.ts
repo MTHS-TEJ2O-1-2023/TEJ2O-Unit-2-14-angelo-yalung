@@ -2,7 +2,7 @@
  *
  * Created by: Angelo Yalung
  * Created on: Nov 2023
- * This program ...
+ * This program moves a pixel from the top left to the bottom right when pressing the A button, moving the pixel from the bottom right to the top left when pressing the B Button.
 */
 
 // variables
@@ -19,7 +19,7 @@ input.onButtonPressed(Button.A, function () {
   loopCounter = 0
   sprite = game.createSprite(0, 0)
 
-// the loop for the A button
+  // the loop for the A button
   while (loopCounter <= 5) {
     sprite.set(LedSpriteProperty.X, loopCounter)
     sprite.set(LedSpriteProperty.Y, loopCounter)
@@ -37,7 +37,7 @@ input.onButtonPressed(Button.B, function () {
   loopCounter = 5
   sprite = game.createSprite(0, 0)
 
-// looping for B button
+  // looping for B button
   while (loopCounter >= 0) {
     sprite.set(LedSpriteProperty.X, loopCounter)
     sprite.set(LedSpriteProperty.Y, loopCounter)
