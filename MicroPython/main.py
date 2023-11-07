@@ -1,10 +1,12 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
+Created by: Angelo Yalung
+Created on: Nov 2023
 This module is a Micro:bit MicroPython program
 """
 
 from microbit import *
 
+# variables
+loopCounter = 0
 
-display.scroll("Hello, World!")
+
